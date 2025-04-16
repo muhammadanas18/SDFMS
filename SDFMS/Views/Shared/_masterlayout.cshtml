@@ -1,0 +1,121 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome (use CDN for simplicity) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Your local styles -->
+    <link rel="stylesheet" href="@Url.Content("~/css/style.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/feedingscheduler.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/inventory.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/financial.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/task.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/waste.css")" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+          rel="stylesheet" />
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="loader">
+        <h1>Loading<span>....</span></h1>
+    </div>
+
+    <div class="page-content index-page">
+        <div class="sidebar">
+            <div class="brand">
+                <i class="fa-solid fa-xmark xmark"></i>
+                <h3 class="brand-name">SDFMS</h3>
+            </div>
+            <ul>
+                <li>
+                    <a href="@Url.Content("~/index.html")" class="sidebar-link">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Animals" class="sidebar-link">
+                        <i class="fa-regular fa-user fa-fw"></i><span>Animals</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Animalhealth" class="sidebar-link">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Animal Health</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Milkproduction" class="sidebar-link">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i><span>Milk Production</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Feedingscheduler" class="sidebar-link">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i><span>Feeding Scheduler</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Inventory" class="sidebar-link">
+                        <i class="fa-regular fa-circle-user fa-fw"></i><span>Inventory</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Financial" class="sidebar-link">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Financial</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Tasks" class="sidebar-link">
+                        <i class="fa-regular fa-credit-card fa-fw"></i><span>Tasks</span>
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="Waste" class="sidebar-link">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Waste</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <main>
+            <div class="header">
+                <i class="fa-solid fa-bars bar-item"></i>
+                <div class="search">
+                    <input type="search" placeholder="Type A Keyword" />
+                </div>
+
+                <div class="profile">
+                    <span class="bell"><i class="fa-regular fa-bell fa-lg"></i></span>
+                    <img src="@Url.Content("~/img/avatar.png")" alt="No Image" />
+                </div>
+            </div>
+
+            <div class="main-content">
+                @RenderBody()
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="@Url.Content("~/js/script.js")"></script>
+    <script src="@Url.Content("~/js/dashboard.js")"></script>
+    <script src="@Url.Content("~/js/inventory.js")"></script>
+    <script src="@Url.Content("~/js/feedingscheduler.js")"></script>
+    <script src="@Url.Content("~/js/financial.js")"></script>
+    <script src="@Url.Content("~/js/task.js")"></script>
+    <script src="@Url.Content("~/js/waste.js")"></script>
+</body>
+</html>

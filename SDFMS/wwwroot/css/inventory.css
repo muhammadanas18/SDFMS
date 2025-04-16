@@ -1,0 +1,159 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.title h1 {
+  font-size: 2.5rem;
+  color: #4a6fa5;
+}
+
+/* Inventory Component Styles */
+.inventory-component {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inventory-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inventory-header h2 {
+  font-size: 1.5rem;
+  color: #4a6fa5;
+}
+
+.search-container {
+  position: relative;
+}
+
+#search-input {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 1rem;
+}
+
+/* Inventory Table */
+.inventory-table-container {
+  overflow-x: auto;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.inventory-table th,
+.inventory-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.inventory-table th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+  color: #4a6fa5;
+}
+
+.inventory-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.reorder-needed {
+  color: #ff4d4d;
+  font-weight: 600;
+}
+
+/* Inventory Summary */
+.inventory-summary {
+  margin-top: 30px;
+}
+
+.inventory-summary h2 {
+  font-size: 1.5rem;
+  color: #4a6fa5;
+  margin-bottom: 15px;
+}
+
+.summary-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat-card {
+  flex: 1 1 200px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4a6fa5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 15px;
+  }
+
+  .title h1 {
+    font-size: 2rem;
+  }
+
+  .inventory-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  #search-input {
+    width: 100%;
+  }
+
+  .summary-stats {
+    flex-direction: column;
+  }
+}

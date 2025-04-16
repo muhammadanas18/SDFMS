@@ -1,0 +1,117 @@
+﻿
+@{
+    ViewData["Title"] = "Animalhealth";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<div class="title">
+    <h1><i class="fa-solid fa-heart-pulse"></i> Animal Health</h1>
+</div>
+
+<div class="main-content-boxes">
+    <!-- Animal Health Check Form -->
+    <div class="box">
+        <div class="box-section1">
+            <div class="box-title">
+                <h2>
+                    <i class="fa-solid fa-stethoscope"></i> Animal Health Check
+                </h2>
+                <p>Enter health details of animals</p>
+            </div>
+        </div>
+        <div class="animal-health-section2">
+            <form id="health-check-form">
+                <label for="animal-id">
+                    <i class="fa-solid fa-id-badge"></i> Animal ID
+                </label>
+                <input type="text"
+                       id="animal-id"
+                       placeholder="Enter Animal ID"
+                       required />
+
+                <label for="health-status">
+                    <i class="fa-solid fa-notes-medical"></i> Health Status
+                </label>
+                <input type="text"
+                       id="health-status"
+                       placeholder="e.g. Healthy, Sick"
+                       required />
+
+                <label for="diagnosis">
+                    <i class="fa-solid fa-comment-medical"></i> Diagnosis
+                </label>
+                <textarea id="diagnosis"
+                          placeholder="Enter any health issues"
+                          required></textarea>
+
+                <label for="treatment">
+                    <i class="fa-solid fa-prescription-bottle-alt"></i>
+                    Treatment Given
+                </label>
+                <textarea id="treatment"
+                          placeholder="Enter treatment details"
+                          required></textarea>
+
+                <button type="submit" class="btn-submit">
+                    <i class="fa-solid fa-save"></i> Save Health Info
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Vaccination Record Form -->
+    <div class="box">
+        <div class="box-section1">
+            <div class="box-title">
+                <h2>
+                    <i class="fa-solid fa-syringe"></i> Vaccination Record
+                </h2>
+                <p>Manage animal vaccination history</p>
+            </div>
+        </div>
+        <div class="vaccination-record-section2">
+            <form id="vaccination-form">
+                <label for="animal-id-vaccine">
+                    <i class="fa-solid fa-id-badge"></i> Animal ID
+                </label>
+                <input type="text"
+                       id="animal-id-vaccine"
+                       placeholder="Enter Animal ID"
+                       required />
+
+                <label for="vaccine-name">
+                    <i class="fa-solid fa-vial-virus"></i> Vaccine Name
+                </label>
+                <input type="text"
+                       id="vaccine-name"
+                       placeholder="e.g. FMD, Rabies"
+                       required />
+
+                <label for="vaccine-date">
+                    <i class="fa-solid fa-calendar-days"></i> Date of
+                    Vaccination
+                </label>
+                <input type="date" id="vaccine-date" required />
+
+                <button type="submit" class="btn-submit">
+                    <i class="fa-solid fa-save"></i> Save Vaccination Record
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Records Section -->
+<div class="records-section">
+    <h2><i class="fa-solid fa-clipboard-list"></i> Health Records</h2>
+
+    <div class="health-records" id="health-records">
+        <!-- Health records will be displayed here -->
+    </div>
+
+    <h2><i class="fa-solid fa-syringe"></i> Vaccination Records</h2>
+
+    <div class="vaccination-records" id="vaccination-records">
+        <!-- Vaccination records will be displayed here -->
+    </div>
+</div>

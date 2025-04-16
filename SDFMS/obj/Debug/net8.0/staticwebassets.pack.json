@@ -1,0 +1,513 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SDFMS.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SDFMS.77f4oy4ca2.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\feedingscheduler.css",
+      "PackagePath": "staticwebassets\\css\\feedingscheduler.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\financial.css",
+      "PackagePath": "staticwebassets\\css\\financial.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\inventory.css",
+      "PackagePath": "staticwebassets\\css\\inventory.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\milkproduction.css",
+      "PackagePath": "staticwebassets\\css\\milkproduction.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\task.css",
+      "PackagePath": "staticwebassets\\css\\task.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\waste.css",
+      "PackagePath": "staticwebassets\\css\\waste.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\activity-01.png",
+      "PackagePath": "staticwebassets\\img\\activity-01.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\activity-02.png",
+      "PackagePath": "staticwebassets\\img\\activity-02.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\activity-03.png",
+      "PackagePath": "staticwebassets\\img\\activity-03.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\avatar.png",
+      "PackagePath": "staticwebassets\\img\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\avi.svg",
+      "PackagePath": "staticwebassets\\img\\avi.svg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\course-01.jpg",
+      "PackagePath": "staticwebassets\\img\\course-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\course-02.jpg",
+      "PackagePath": "staticwebassets\\img\\course-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\course-03.jpg",
+      "PackagePath": "staticwebassets\\img\\course-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\course-04.jpg",
+      "PackagePath": "staticwebassets\\img\\course-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\course-05.jpg",
+      "PackagePath": "staticwebassets\\img\\course-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\dll.svg",
+      "PackagePath": "staticwebassets\\img\\dll.svg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\eps.svg",
+      "PackagePath": "staticwebassets\\img\\eps.svg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\friend-01.jpg",
+      "PackagePath": "staticwebassets\\img\\friend-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\friend-02.jpg",
+      "PackagePath": "staticwebassets\\img\\friend-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\friend-03.jpg",
+      "PackagePath": "staticwebassets\\img\\friend-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\friend-04.jpg",
+      "PackagePath": "staticwebassets\\img\\friend-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\friend-05.jpg",
+      "PackagePath": "staticwebassets\\img\\friend-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\image.png",
+      "PackagePath": "staticwebassets\\img\\image.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\news-01.png",
+      "PackagePath": "staticwebassets\\img\\news-01.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\news-02.png",
+      "PackagePath": "staticwebassets\\img\\news-02.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\news-03.png",
+      "PackagePath": "staticwebassets\\img\\news-03.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\news-04.png",
+      "PackagePath": "staticwebassets\\img\\news-04.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\pdf.svg",
+      "PackagePath": "staticwebassets\\img\\pdf.svg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\png.svg",
+      "PackagePath": "staticwebassets\\img\\png.svg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\project.png",
+      "PackagePath": "staticwebassets\\img\\project.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\psd.svg",
+      "PackagePath": "staticwebassets\\img\\psd.svg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\sql.svg",
+      "PackagePath": "staticwebassets\\img\\sql.svg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\team-01.png",
+      "PackagePath": "staticwebassets\\img\\team-01.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\team-02.png",
+      "PackagePath": "staticwebassets\\img\\team-02.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\team-03.png",
+      "PackagePath": "staticwebassets\\img\\team-03.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\team-04.png",
+      "PackagePath": "staticwebassets\\img\\team-04.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\team-05.png",
+      "PackagePath": "staticwebassets\\img\\team-05.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\txt.svg",
+      "PackagePath": "staticwebassets\\img\\txt.svg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\welcome.png",
+      "PackagePath": "staticwebassets\\img\\welcome.png"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\img\\zip.svg",
+      "PackagePath": "staticwebassets\\img\\zip.svg"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\js\\feedingscheduler.js",
+      "PackagePath": "staticwebassets\\js\\feedingscheduler.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\js\\financial.js",
+      "PackagePath": "staticwebassets\\js\\financial.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\js\\inventory.js",
+      "PackagePath": "staticwebassets\\js\\inventory.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\js\\milkproduction.js",
+      "PackagePath": "staticwebassets\\js\\milkproduction.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\js\\task.js",
+      "PackagePath": "staticwebassets\\js\\task.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\js\\waste.js",
+      "PackagePath": "staticwebassets\\js\\waste.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\lib\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SDFMS.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SDFMS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SDFMS.props",
+      "PackagePath": "build\\SDFMS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SDFMS.props",
+      "PackagePath": "buildMultiTargeting\\SDFMS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SDFMS.props",
+      "PackagePath": "buildTransitive\\SDFMS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

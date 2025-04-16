@@ -1,0 +1,203 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.title h1 {
+  font-size: 2.5rem;
+  color: #4a6fa5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Feeding Scheduler Specific Styles */
+.feeding-scheduler-component {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.data-display {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.data-display h2 {
+  font-size: 1.5rem;
+  color: #4a6fa5;
+  margin-bottom: 15px;
+}
+
+/* Calendar View */
+.calendar-view {
+  margin-bottom: 30px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.calendar-header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.calendar-day {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+}
+
+.calendar-day.has-feeding {
+  background-color: #e3f2fd;
+}
+
+.calendar-day.has-feeding::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  width: 6px;
+  height: 6px;
+  background-color: #4a6fa5;
+  border-radius: 50%;
+}
+
+/* Feeding List */
+.feeding-list {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.feeding-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feeding-item:last-child {
+  border-bottom: none;
+}
+
+.feeding-time {
+  font-weight: 600;
+}
+
+.feeding-details {
+  flex: 1;
+  margin: 0 15px;
+}
+
+.feeding-amount {
+  color: #4a6fa5;
+  font-weight: 500;
+}
+
+/* Statistics */
+.feeding-stats {
+  margin-top: 30px;
+}
+
+.summary-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  flex: 1 1 200px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4a6fa5;
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.delete-btn:hover {
+  background-color: #ff3333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 15px;
+  }
+
+  .title h1 {
+    font-size: 2rem;
+  }
+
+  .data-display {
+    padding: 15px;
+  }
+
+  .summary-stats {
+    flex-direction: column;
+  }
+}

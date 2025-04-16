@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewData["Title"] = "Inventory";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<div class="title">
+    <h1>Inventory Management</h1>
+</div>
+
+<div class="inventory-component">
+    <div class="inventory-header">
+        <h2>Current Inventory</h2>
+        <div class="search-container">
+            <input type="text"
+                   id="search-input"
+                   placeholder="Search inventory..." />
+        </div>
+    </div>
+
+    <div class="inventory-table-container">
+        <table class="inventory-table">
+            <thead>
+                <tr>
+                    <th>Item ID</th>
+                    <th>Item Name</th>
+                    <th>Category</th>
+                    <th>Quantity Available</th>
+                    <th>Reorder Level</th>
+                    <th>Last Updated</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="inventory-body">
+                <!-- Inventory items will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="inventory-summary">
+        <h2>Inventory Summary</h2>
+        <div class="summary-stats">
+            <div class="stat-card">
+                <h3>Total Items</h3>
+                <p id="total-items">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Items Needing Reorder</h3>
+                <p id="reorder-items">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Last Updated</h3>
+                <p id="last-updated">-</p>
+            </div>
+        </div>
+    </div>
+</div>
+

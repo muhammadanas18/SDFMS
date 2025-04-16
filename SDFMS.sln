@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDFMS", "SDFMS\SDFMS.csproj", "{3FFB41E6-282A-48F6-BBA6-5DC46BD5B9AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FFB41E6-282A-48F6-BBA6-5DC46BD5B9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFB41E6-282A-48F6-BBA6-5DC46BD5B9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFB41E6-282A-48F6-BBA6-5DC46BD5B9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFB41E6-282A-48F6-BBA6-5DC46BD5B9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C846742B-6F18-4315-B537-7045BAFB60D5}
+	EndGlobalSection
+EndGlobal

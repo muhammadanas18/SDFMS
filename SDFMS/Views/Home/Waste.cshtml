@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewData["Title"] = "Waste";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<div class="title">
+    <h1>Waste Management</h1>
+</div>
+
+<div class="waste-management-component">
+    <div class="waste-header">
+        <h2>Waste Records</h2>
+        <button class="btn-add" id="add-waste">Add Waste Record</button>
+    </div>
+
+    <div class="waste-table-container">
+        <table class="waste-table">
+            <thead>
+                <tr>
+                    <th>Waste ID</th>
+                    <th>Waste Type</th>
+                    <th>Disposal Date</th>
+                    <th>Disposal Method</th>
+                    <th>Quantity</th>
+                    <th>Sold</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="waste-body">
+                <!-- Waste records will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="waste-summary">
+        <h2>Waste Summary</h2>
+        <div class="summary-stats">
+            <div class="stat-card">
+                <h3>Total Waste</h3>
+                <p id="total-waste">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Waste Sold</h3>
+                <p id="waste-sold">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Total Disposed</h3>
+                <p id="total-disposed">0</p>
+            </div>
+        </div>
+    </div>
+</div>
+

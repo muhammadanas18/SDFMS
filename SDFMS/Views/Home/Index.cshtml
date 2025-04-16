@@ -1,0 +1,178 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<header class="dashboard-header">
+    <div class="header-title">
+        <h1>Dashboard</h1>
+        <p>Overview of farm operations</p>
+    </div>
+    <div class="header-actions">
+        <div class="notification-bell">
+            <i class="icon-bell"></i>
+            <span class="notification-count">3</span>
+        </div>
+        <div class="date-display">
+            <span id="current-date"></span>
+        </div>
+    </div>
+</header>
+
+<div class="dashboard-grid">
+    <!-- Quick Stats Cards -->
+    <div class="stats-row">
+        <div class="stat-card">
+            <div class="stat-icon milk-icon"></div>
+            <div class="stat-info">
+                <h3 id="total-milk">0</h3>
+                <p>Total Milk Produced</p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon feed-icon"></div>
+            <div class="stat-info">
+                <h3 id="total-feed">0</h3>
+                <p>Feed Inventory</p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon finance-icon"></div>
+            <div class="stat-info">
+                <h3 id="total-income">$0</h3>
+                <p>Monthly Income</p>
+            </div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-icon task-icon"></div>
+            <div class="stat-info">
+                <h3 id="pending-tasks">0</h3>
+                <p>Pending Tasks</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Milk Production Overview -->
+    <div class="dashboard-card large-card">
+        <div class="card-header">
+            <h2>Milk Production Trends</h2>
+            <a href="#milk-production" class="view-all">View All</a>
+        </div>
+        <div class="card-content">
+            <div class="chart-container">
+                <canvas id="milk-production-chart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feeding & Inventory Overview -->
+    <div class="dashboard-card">
+        <div class="card-header">
+            <h2>Feeding & Inventory</h2>
+            <a href="#feeding-scheduler" class="view-all">View All</a>
+        </div>
+        <div class="card-content">
+            <div class="inventory-summary">
+                <div class="inventory-item">
+                    <p>Hay</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%"></div>
+                    </div>
+                    <p>60% of capacity</p>
+                </div>
+                <div class="inventory-item">
+                    <p>Grain</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 30%"></div>
+                    </div>
+                    <p>30% of capacity</p>
+                </div>
+                <div class="inventory-item">
+                    <p>Supplements</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                    <p>80% of capacity</p>
+                </div>
+            </div>
+            <div class="feeding-schedule">
+                <h3>Today's Feedings</h3>
+                <ul class="feeding-list">
+                    <li>Cow Herd #1 - 7:00 AM</li>
+                    <li>Calf Group #2 - 9:30 AM</li>
+                    <li>Bull Group - 12:00 PM</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Financial Overview -->
+    <div class="dashboard-card">
+        <div class="card-header">
+            <h2>Financial Overview</h2>
+            <a href="#financial" class="view-all">View All</a>
+        </div>
+        <div class="card-content">
+            <div class="financial-summary">
+                <div class="financial-item income">
+                    <h3>$12,500</h3>
+                    <p>Monthly Income</p>
+                </div>
+                <div class="financial-item expense">
+                    <h3>$8,300</h3>
+                    <p>Monthly Expenses</p>
+                </div>
+                <div class="financial-item profit">
+                    <h3>$4,200</h3>
+                    <p>Net Profit</p>
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="financial-chart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Task & Waste Management -->
+    <div class="dashboard-card large-card">
+        <div class="card-header">
+            <h2>Operations Management</h2>
+            <div class="card-actions">
+                <a href="#tasks" class="view-all">View Tasks</a>
+                <a href="#waste" class="view-all">View Waste</a>
+            </div>
+        </div>
+        <div class="card-content">
+            <div class="operations-grid">
+                <div class="operations-card tasks-card">
+                    <h3>Upcoming Tasks</h3>
+                    <ul class="task-list">
+                        <li>Equipment Maintenance - Due Today</li>
+                        <li>Veterinary Checkup - Due Tomorrow</li>
+                        <li>Silage Preparation - Due in 3 days</li>
+                    </ul>
+                </div>
+                <div class="operations-card waste-card">
+                    <h3>Waste Management</h3>
+                    <div class="waste-summary">
+                        <div class="waste-item">
+                            <p>Organic Waste</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                            <p>75% of capacity</p>
+                        </div>
+                        <div class="waste-item">
+                            <p>Composting</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 40%"></div>
+                            </div>
+                            <p>40% complete</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

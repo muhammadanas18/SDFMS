@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewData["Title"] = "Tasks";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<div class="title">
+    <h1>Task Management</h1>
+</div>
+
+<div class="task-management-component">
+    <div class="task-header">
+        <h2>Employee Tasks</h2>
+        <div class="action-buttons">
+            <button class="btn-add" id="assign-task">
+                Assign New Task
+            </button>
+        </div>
+    </div>
+
+    <div class="employee-filter">
+        <select id="employee-filter">
+            <option value="all">All Employees</option>
+            <option value="1">John Doe</option>
+            <option value="2">Jane Smith</option>
+            <option value="3">Mark Johnson</option>
+        </select>
+        <select id="status-filter">
+            <option value="all">All Statuses</option>
+            <option value="pending">Pending</option>
+            <option value="in-progress">In Progress</option>
+            <option value="completed">Completed</option>
+        </select>
+    </div>
+
+    <div class="tasks-container">
+        <div class="tasks-grid" id="tasks-grid">
+            <!-- Tasks will be added here dynamically -->
+        </div>
+    </div>
+
+    <div class="task-summary">
+        <h2>Task Summary</h2>
+        <div class="summary-stats">
+            <div class="stat-card">
+                <h3>Total Tasks</h3>
+                <p id="total-tasks">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Pending Tasks</h3>
+                <p id="pending-tasks">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>In Progress</h3>
+                <p id="in-progress-tasks">0</p>
+            </div>
+            <div class="stat-card">
+                <h3>Completed Tasks</h3>
+                <p id="completed-tasks">0</p>
+            </div>
+        </div>
+    </div>
+</div>
+
