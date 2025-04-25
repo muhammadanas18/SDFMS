@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="@Url.Content("~/css/feedingscheduler.css")" />
     <link rel="stylesheet" href="@Url.Content("~/css/inventory.css")" />
     <link rel="stylesheet" href="@Url.Content("~/css/financial.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/animals.css")" />
     <link rel="stylesheet" href="@Url.Content("~/css/task.css")" />
     <link rel="stylesheet" href="@Url.Content("~/css/waste.css")" />
-
+    <link rel="stylesheet" href="@Url.Content("~/css/task.css")"
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,44 +46,44 @@
                     </a>
                 </li>
                 <li>
-                    <a asp-controller="Home" asp-action="Animals" class="sidebar-link">
+                    <a asp-controller="Animals" asp-action="Index" class="sidebar-link">
                         <i class="fa-regular fa-user fa-fw"></i><span>Animals</span>
                     </a>
                 </li>
                 <li>
-                    <a asp-controller="Home" asp-action="Animalhealth" class="sidebar-link">
+                    <a asp-controller="HealthRecords" asp-action="Index" class="sidebar-link">
                         <i class="fa-solid fa-gear fa-fw"></i>
                         <span>Animal Health</span>
                     </a>
                 </li>
                 <li>
-                    <a asp-controller="Home" asp-action="Milkproduction" class="sidebar-link">
+                    <a asp-controller="MilkProductions" asp-action="Index" class="sidebar-link">
                         <i class="fa-solid fa-diagram-project fa-fw"></i><span>Milk Production</span>
                     </a>
                 </li>
                 <li>
-                    <a asp-controller="Home" asp-action="Feedingscheduler" class="sidebar-link">
+                    <a asp-controller="FeedingSchedules" asp-action="Index" class="sidebar-link">
                         <i class="fa-solid fa-graduation-cap fa-fw"></i><span>Feeding Scheduler</span>
                     </a>
                 </li>
                 <li>
-                    <a asp-controller="Home" asp-action="Inventory" class="sidebar-link">
+                    <a asp-controller="Inventories" asp-action="Index" class="sidebar-link">
                         <i class="fa-regular fa-circle-user fa-fw"></i><span>Inventory</span>
                     </a>
                 </li>
                 <li>
-                    <a asp-controller="Home" asp-action="Financial" class="sidebar-link">
+                    <a asp-controller="FinancialTransactions" asp-action="Index" class="sidebar-link">
                         <i class="fa-regular fa-file fa-fw"></i>
                         <span>Financial</span>
                     </a>
                 </li>
                 <li>
-                    <a asp-controller="Home" asp-action="Tasks" class="sidebar-link">
+                    <a asp-controller="EmployeeTasks" asp-action="Index" class="sidebar-link">
                         <i class="fa-regular fa-credit-card fa-fw"></i><span>Tasks</span>
                     </a>
                 </li>
                 <li>
-                    <a asp-controller="Home" asp-action="Waste" class="sidebar-link">
+                    <a asp-controller="WasteManagements" asp-action="Index" class="sidebar-link">
                         <i class="fa-regular fa-file fa-fw"></i>
                         <span>Waste</span>
                     </a>

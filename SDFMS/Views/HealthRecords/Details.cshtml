@@ -1,0 +1,43 @@
+﻿@model SDFMS.Models.HealthRecord
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>HealthRecord</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.VaccinationDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.VaccinationDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TreatmentDetails)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TreatmentDetails)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NextCheckupDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NextCheckupDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Animal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Animal.AnimalId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.RecordId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

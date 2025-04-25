@@ -1,0 +1,43 @@
+﻿@model SDFMS.Models.EmployeeTasks
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>EmployeeTasks</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TaskDescription)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TaskDescription)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DueDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DueDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AssignedToNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AssignedToNavigation.EmployeeId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.TaskId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

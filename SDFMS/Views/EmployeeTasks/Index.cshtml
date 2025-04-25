@@ -1,0 +1,108 @@
+﻿@model IEnumerable<SDFMS.Models.EmployeeTasks>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<div class="box-title" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <div>
+        <h2><i class="fa-solid fa-table"></i> Tasks</h2>
+        <p>Stored records of all empoyees tasks</p>
+    </div>
+    <button class="create-btn">
+        <a asp-action="Create"><i class="fa-solid fa-plus"></i> Create New</a>
+    </button>
+</div>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TaskDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DueDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AssignedToNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TaskDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DueDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AssignedToNavigation.EmployeeId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TaskId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TaskId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TaskId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<div class="table-wrapper">
+    <table class="animal-table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.TaskDescription)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DueDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AssignedToNavigation)
+                </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="animalTableBody">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TaskDescription)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DueDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AssignedToNavigation.EmployeeId)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.TaskId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.TaskId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.TaskId">Delete</a>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>

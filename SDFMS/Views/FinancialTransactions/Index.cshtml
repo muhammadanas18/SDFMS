@@ -1,0 +1,65 @@
+﻿@model IEnumerable<SDFMS.Models.FinancialTransaction>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<div class="box-title" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <div>
+        <h2><i class="fa-solid fa-table"></i>Financial Transactions</h2>
+        <p>Stored records of all Financial Transactions</</p>
+    </div>
+    <button class="create-btn">
+        <a asp-action="Create"><i class="fa-solid fa-plus"></i> Create New</a>
+    </button>
+</div>
+
+
+<div class="table-wrapper">
+    <table class="animal-table">
+        <thead>
+            <tr>
+               <r>
+                <th>
+                    @Html.DisplayNameFor(model => model.TransactionDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TransactionType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Amount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="animalTableBody">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TransactionDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TransactionType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Amount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.TransactionId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.TransactionId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.TransactionId">Delete</a>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>

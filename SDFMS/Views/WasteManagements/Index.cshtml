@@ -1,0 +1,73 @@
+﻿@model IEnumerable<SDFMS.Models.WasteManagement>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<div class="box-title" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <div>
+        <h2><i class="fa-solid fa-trash"></i> Waste Management</h2>
+        <p>Stored records of all the waste of animals</p>
+    </div>
+    <button class="create-btn">
+        <a asp-action="Create"><i class="fa-solid fa-plus"></i> Create New</a>
+    </button>
+</div>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<div class="table-wrapper">
+    <table class="animal-table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.WasteType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DisposalDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DisposalMethod)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Quantity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Sold)
+                </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="animalTableBody">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.WasteType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DisposalDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DisposalMethod)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Sold)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.WasteId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.WasteId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.WasteId">Delete</a>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>

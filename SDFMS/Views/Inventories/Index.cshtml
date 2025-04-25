@@ -1,0 +1,71 @@
+﻿@model IEnumerable<SDFMS.Models.Inventory>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+
+<div class="box-title" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <div>
+        <h2><i class="fa-solid fa-table"></i> Inventory</h2>
+        <p>Stored records of all Inventory</p>
+    </div>
+    <button class="create-btn">
+        <a asp-action="Create"><i class="fa-solid fa-plus"></i> Create New</a>
+    </button>
+</div>
+
+
+<div class="table-wrapper">
+    <table class="animal-table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ItemName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.QuantityAvailable)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ReorderLevel)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastUpdated)
+                </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="animalTableBody">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ItemName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.QuantityAvailable)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReorderLevel)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LastUpdated)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ItemId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.ItemId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ItemId">Delete</a>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>

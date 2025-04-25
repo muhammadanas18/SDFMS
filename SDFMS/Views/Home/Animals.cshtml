@@ -3,58 +3,26 @@
     ViewData["Title"] = "Animals";
     Layout = "~/Views/Shared/_masterlayout.cshtml";
 }
-<div class="title">
-    <h1><i class="fa-solid fa-paw"></i> Animal Detail</h1>
-</div>
-<!-- Animal Detail Form Box -->
-<div class="main-content-boxes">
-    <div class="box animal-detail-box">
-        <div class="box-section1">
-            <div class="box-title">
-                <h2>
-                    <i class="fa-solid fa-id-card"></i> Record Animal Details
-                </h2>
-                <p>Enter the animal details below</p>
-            </div>
-        </div>
-        <div class="animal-detail-section2">
-            <form id="animalDetailsForm">
-                <label for="animal-id">
-                    <i class="fa-solid fa-tag"></i> Animal ID
-                </label>
-                <input type="text"
-                       id="animal-id"
-                       placeholder="Enter Animal ID"
-                       required />
 
-                <label for="animal-name">
-                    <i class="fa-solid fa-signature"></i> Animal Name
-                </label>
-                <input type="text"
-                       id="animal-name"
-                       placeholder="Enter Animal Name"
-                       required />
-
-                <label for="animal-type">
-                    <i class="fa-solid fa-paw"></i> Animal Type
-                </label>
-                <input type="text"
-                       id="animal-type"
-                       placeholder="e.g. Cow, Sheep"
-                       required />
-
-                <label for="animal-breed">
-                    <i class="fa-solid fa-dna"></i> Breed
-                </label>
-                <input type="text"
-                       id="animal-breed"
-                       placeholder="Enter Breed"
-                       required />
-
-                <button type="submit" class="btn-submit">
-                    <i class="fa-solid fa-save"></i> Save Record
-                </button>
-            </form>
-        </div>
+    <div class="box-title">
+        <h2><i class="fa-solid fa-table"></i> Animal Records</h2>
+        <p>Stored records of all registered animals</p>
     </div>
-</div>
+    <div class="table-wrapper">
+        <table class="animal-table">
+            <thead>
+                <tr>
+                    <th>Animal ID</th>
+                    <th>Tag No</th>
+                    <th>Breed</th>
+                    <th>Date of Birth</th>
+                    <th>Gender</th>
+                    <th>Health Status</th>
+                    <th>Entry Date</th>
+                </tr>
+            </thead>
+            <tbody id="animalTableBody">
+                <!-- dynamic rows -->
+            </tbody>
+        </table>
+    </div>

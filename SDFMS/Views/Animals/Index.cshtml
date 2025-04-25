@@ -1,0 +1,77 @@
+﻿@model IEnumerable<SDFMS.Models.Animal>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+
+
+<div class="box-title" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <div>
+        <h2><i class="fa-solid fa-table"></i> Animal Records</h2>
+        <p>Stored records of all registered animals</p>
+    </div>
+    <button class="create-btn">
+        <a asp-action="Create"><i class="fa-solid fa-plus"></i> Create New</a>
+    </button>
+</div>
+
+<div class="table-wrapper">
+    <table class="animal-table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.AnimalTagNo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Breed)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateOfBirth)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Gender)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HealthStatus)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EntryDate)
+                </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="animalTableBody">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AnimalTagNo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Breed)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateOfBirth)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gender)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HealthStatus)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EntryDate)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.AnimalId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.AnimalId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.AnimalId">Delete</a>
+                    </td>
+                </tr>
+                            
+             }
+        </tbody>
+    </table>
+</div>

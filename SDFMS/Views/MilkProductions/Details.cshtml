@@ -1,0 +1,43 @@
+﻿@model SDFMS.Models.MilkProduction
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>MilkProduction</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateRecorded)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateRecorded)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MilkQuantity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MilkQuantity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Remarks)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Remarks)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Animal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Animal.AnimalId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.RecordId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

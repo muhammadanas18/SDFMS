@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\all.min.css"
     },
     {
+      "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\animals.css",
+      "PackagePath": "staticwebassets\\css\\animals.css"
+    },
+    {
       "Id": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\dashboard.css"
     },

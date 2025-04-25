@@ -1,0 +1,49 @@
+﻿@model SDFMS.Models.WasteManagement
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>WasteManagement</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.WasteType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.WasteType)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DisposalDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DisposalDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DisposalMethod)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DisposalMethod)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Sold)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sold)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.WasteId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

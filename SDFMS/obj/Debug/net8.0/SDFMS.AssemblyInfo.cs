@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SDFMS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2186994f909745612dd39003aea03ed8563f5cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SDFMS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SDFMS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

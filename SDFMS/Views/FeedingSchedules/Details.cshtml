@@ -1,0 +1,49 @@
+﻿@model SDFMS.Models.FeedingSchedule
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>FeedingSchedule</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FeedingTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FeedingTime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FeedType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FeedType)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Animal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Animal.AnimalId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ScheduleId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

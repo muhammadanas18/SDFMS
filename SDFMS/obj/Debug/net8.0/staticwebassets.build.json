@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r/Gz1cPH6fh5CLGTwr7ek55P4Ew9xizlgsqTBqQ+zQM=",
+  "Hash": "whp8+VvdZNl97wMe1FnReZwYjQS8mL5jhb9l3TIWj2Q=",
   "Source": "SDFMS",
   "BasePath": "_content/SDFMS",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\all.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\animals.css",
+      "SourceId": "SDFMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\",
+      "BasePath": "_content/SDFMS",
+      "RelativePath": "css/animals#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "glu0wwzhrt",
+      "Integrity": "5Ko5ir8vFd4KvbhY3Xnh/hgJ7xuPSvNC2rXtZVO5YNw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\animals.css"
     },
     {
       "Identity": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\dashboard.css",
@@ -2680,6 +2701,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1RqWa6jrqVLV5+Zz7snZFqr7f2MwKGUMfWzwMGR+aD4="
+        }
+      ]
+    },
+    {
+      "Route": "css/animals.css",
+      "AssetFile": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\animals.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Ko5ir8vFd4KvbhY3Xnh/hgJ7xuPSvNC2rXtZVO5YNw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 19:38:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Ko5ir8vFd4KvbhY3Xnh/hgJ7xuPSvNC2rXtZVO5YNw="
+        }
+      ]
+    },
+    {
+      "Route": "css/animals.glu0wwzhrt.css",
+      "AssetFile": "C:\\Users\\FASTECH LAPTOP\\source\\repos\\SDFMS\\SDFMS\\wwwroot\\css\\animals.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Ko5ir8vFd4KvbhY3Xnh/hgJ7xuPSvNC2rXtZVO5YNw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 19:38:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "glu0wwzhrt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/animals.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Ko5ir8vFd4KvbhY3Xnh/hgJ7xuPSvNC2rXtZVO5YNw="
         }
       ]
     },

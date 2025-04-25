@@ -1,0 +1,70 @@
+﻿@model IEnumerable<SDFMS.Models.FeedingSchedule>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<div class="box-title" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <div>
+        <h2><i class="fa-solid fa-table"></i> Feeding Schedules</h2>
+        <p>Stored records of all Feeds and Schedules</p>
+    </div>
+    <button class="create-btn">
+        <a asp-action="Create"><i class="fa-solid fa-plus"></i> Create New</a>
+    </button>
+</div>
+
+
+<div class="table-wrapper">
+    <table class="animal-table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FeedingTime)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FeedType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Quantity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Animal)
+                </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="animalTableBody">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FeedingTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FeedType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Animal.AnimalId)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ScheduleId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.ScheduleId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ScheduleId">Delete</a>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>

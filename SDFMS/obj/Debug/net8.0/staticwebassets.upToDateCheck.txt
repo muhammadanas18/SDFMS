@@ -1,4 +1,5 @@
 wwwroot\css\all.min.css
+wwwroot\css\animals.css
 wwwroot\css\dashboard.css
 wwwroot\css\feedingscheduler.css
 wwwroot\css\financial.css

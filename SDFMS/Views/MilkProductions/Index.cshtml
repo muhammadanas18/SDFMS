@@ -1,0 +1,64 @@
+﻿@model IEnumerable<SDFMS.Models.MilkProduction>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_masterlayout.cshtml";
+}
+
+<div class="box-title" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <div>
+        <h2><i class="fa-solid fa-table"></i> MIlk Production</h2>
+        <p>Stored records of Milk</p>
+    </div>
+    <button class="create-btn">
+        <a asp-action="Create"><i class="fa-solid fa-plus"></i> Create New</a>
+    </button>
+</div>
+
+
+<div class="table-wrapper">
+    <table class="animal-table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateRecorded)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MilkQuantity)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Remarks)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Animal)
+                </th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="animalTableBody">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateRecorded)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MilkQuantity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Remarks)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Animal.AnimalId)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.RecordId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.RecordId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.RecordId">Delete</a>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>

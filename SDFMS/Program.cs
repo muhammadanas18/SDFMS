@@ -1,4 +1,11 @@
+﻿using Microsoft.EntityFrameworkCore;
+using SDFMS.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// 🔹 Register database context
+builder.Services.AddDbContext<SmartDairyFarmContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("dbconn")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

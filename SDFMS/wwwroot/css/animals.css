@@ -1,0 +1,70 @@
+.animal-table-box {
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.animal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Open Sans", sans-serif;
+}
+
+.animal-table th,
+.animal-table td {
+  padding: 12px 10px;
+  border: 1px solid #ddd;
+  white-space: nowrap; /* Prevent header wrapping */
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Header Style */
+.animal-table thead {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.animal-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.animal-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* 🔻 Responsive adjustments */
+@media (max-width: 768px) {
+  .animal-table th,
+  .animal-table td {
+    font-size: 12px;
+    padding: 8px 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .animal-table th,
+  .animal-table td {
+    font-size: 10px;
+    padding: 6px 4px;
+  }
+}
+
+.create-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+ .create-btn:hover {
+        background-color: #3B71CA;
+}
